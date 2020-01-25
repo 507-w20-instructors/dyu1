@@ -33,6 +33,8 @@ def do_grades(grades):
         student_grades[id] = sum/num_items
     for id in student_grades:
         student = students[id]
-        print(student['first_name'], student['last_name'], 'has', student_grades[id])
+        print(student['first_name'], 
+            student['last_name'], 'has', 
+            student_grades[id])
 
 do_grades(grades)
